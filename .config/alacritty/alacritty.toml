@@ -1,0 +1,39 @@
+import = [".config/alacritty/fonts-alacritty.toml", ".config/alacritty/themes-alacritty.toml"]
+live_config_reload = true
+
+[bell]
+animation = "Linear"
+color = "#000000"
+duration = 200
+
+[cursor]
+blink_interval = 750
+blink_timeout = 5
+unfocused_hollow = false
+
+[cursor.style]
+blinking = "On"
+shape = "Beam"
+
+[env]
+TERM = "alacritty"
+
+[mouse]
+hide_when_typing = true
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[shell]
+program = "/bin/bash"
+
+[window]
+decorations = "none"
+dynamic_padding = true
+dynamic_title = true
+opacity = 0.7
+
+[window.padding]
+x = 5
+y = 5
